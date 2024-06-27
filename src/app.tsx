@@ -3,7 +3,7 @@ import Header from './components/Header/Header';
 
 const root = createRoot(document.body);
 
-function Test() {
+function App() {
     return(
         <div>
             <Header/>
@@ -11,5 +11,4 @@ function Test() {
     )
 }
 
-
-root.render(<Test/>);
+root.render(<App/>);
